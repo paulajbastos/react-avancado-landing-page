@@ -107,6 +107,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     sectionReviews {
       title
       reviews {
+        id
         name
         text
         photo {

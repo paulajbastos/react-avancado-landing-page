@@ -10,14 +10,14 @@ export type TechIcon = {
   }
 }
 
-export type Concepts = {
+export type Concept = {
   title: string
   concepts: {
     title: string
   }
 }
 
-export type Modules = {
+export type Module = {
   title: string
   modules: {
     title: string
@@ -54,12 +54,12 @@ export type SectionTechProps = {
 
 export type SectionConceptsProps = {
   title: string
-  concepts: Concepts[]
+  concepts: Concept[]
 }
 
 export type SectionModulesProps = {
   title: string
-  modules: Modules[]
+  modules: Module[]
 }
 
 export type SectionAgendaProps = {
@@ -96,13 +96,38 @@ export type SectionAboutUsProps = {
   authors: Author[]
 }
 
+export type Review = {
+  name: string
+  text: string
+  photo: Image
+  id: number
+}
+
+export type SectionReviewsProps = {
+  title: string
+  reviews: Review[]
+}
+
+export type Question = {
+  question: string
+  answer: string
+}
+
+export type SectionFaqProps = {
+  title: string
+  questions: Question[]
+}
+
 export type LandingPageProps = {
   logo: LogoProps
   header: HeaderProps
   sectionAboutProject: SectionAboutProjectProps
   sectionTech: SectionTechProps
-  SectionConcepts: SectionConceptsProps
+  sectionConcepts: SectionConceptsProps
   sectionModules: SectionModulesProps
+  sectionAgenda: SectionAgendaProps
   pricingBox: PricingBoxProps
-  sectionAboutUsProps: SectionAboutUsProps
+  sectionAboutUs: SectionAboutUsProps
+  sectionReviews: SectionReviewsProps
+  sectionFaq: SectionFaqProps
 }
