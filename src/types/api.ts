@@ -19,11 +19,8 @@ export type Concept = {
 
 export type Module = {
   title: string
-  modules: {
-    title: string
-    subtitle: string
-    description: string
-  }
+  subtitle: string
+  description: string
 }
 
 export type LogoProps = {
