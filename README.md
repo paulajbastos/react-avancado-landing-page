@@ -1,13 +1,4 @@
-# Simple NextJS Quick Start
-
-A simple project starter to work with React, NextJS and Styled Components
-
-You can see the example in [https://nextjs-quickstart.now.sh/](https://nextjs-quickstart.now.sh/)
-
 ### 📦 Install
-
-```
-$ git clone https://github.com/guilouro/simple-nextjs-quick-start.git
 
 $ yarn install
 ```
@@ -37,3 +28,8 @@ Runs next build and export which exports a files in a `out` folder to deploy
 ```bash
 $ yarn deploy
 ```
+
+
+## Demo:
+
+[https://paulajbastos-react-avancado-landpage.netlify.app/](https://paulajbastos-react-avancado-landpage.netlify.app/)
